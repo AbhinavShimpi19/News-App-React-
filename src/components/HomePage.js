@@ -42,7 +42,7 @@ const HomePage = () => {
           <option value="sports">Sports</option>
         </select>
       </div>
-      <div className="articles">
+      <div className="articles"> 
         {articles.map((article, index) => (
           <Article key={index} article={article} />
         ))}
